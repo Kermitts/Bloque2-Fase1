@@ -1,1 +1,13 @@
 Usuarios de joan
+#Ies El Caminas
+  Account:
+  GivenName:
+  Surname:
+  Delegation:
+  Departament:
+  Enabled:
+  Password:
+  Change:
+  Email:
+  Shell: /bin/bash
+

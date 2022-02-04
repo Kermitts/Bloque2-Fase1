@@ -9,29 +9,4 @@
   Change:S
   Email:usuuno@iesjaume1.org
   Shell: /bin/bash
-  
-#Ies El Caminas
-  Account:
-  GivenName:
-  Surname:
-  Delegation:
-  Departament:Direccion
-  Enabled:
-  Password:
-  Change:
-  Email:
-  Shell: /bin/bash
-
-#Ies Miralcamp
-  Account: 
-  GivenName:
-  Surname:
-  Delegation:
-  Departament:
-  Enabled:
-  Password:
-  Change:
-  Email:
-  Shell: /bin/bash
-
 

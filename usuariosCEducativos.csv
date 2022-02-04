@@ -1,8 +1,37 @@
+#Ies Jaume 1
+  Account:UunoD
+  GivenName:Usuario
+  Surname:uno dos
+  Delegation:iesjaume1
+  Departament:direccion/informatica/bachiller/conserjeria
+  Enabled:S
+  Password:Contrausuariouno
+  Change:S
+  Email:usuuno@iesjaume1.org
+  Shell: /bin/bash
+  
 #Ies El Caminas
-
+  Account:
+  GivenName:
+  Surname:
+  Delegation:
+  Departament:Direccion
+  Enabled:
+  Password:
+  Change:
+  Email:
+  Shell: /bin/bash
 
 #Ies Miralcamp
+  Account: 
+  GivenName:
+  Surname:
+  Delegation:
+  Departament:
+  Enabled:
+  Password:
+  Change:
+  Email:
+  Shell: /bin/bash
 
-
-#Ies Jaume 1
 

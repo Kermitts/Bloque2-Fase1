@@ -1,1 +1,11 @@
 Usuarios de Sebastian
+  Account:
+  GivenName:
+  Surname:
+  Delegation:
+  Departament:
+  Enabled:
+  Password:
+  Change:
+  Email:
+  Shell: /bin/bash

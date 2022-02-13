@@ -1,0 +1,41 @@
+#Ies Jaume 1
+  Account:UunoD
+  GivenName:Usuario
+  Surname:uno dos
+  Delegation:iesjaume1
+  Departament:direccion/informatica/bachiller/conserjeria
+  Enabled:S
+  Password:Contrausuariouno
+  Change:S
+  Email:usuuno@iesjaume1.org
+  Shell: /bin/bash
+#Actualizar servidor
+  sudo apt update
+#Cambair nombre del sistema
+  sudo nano /etc/hosts y sudo nano /etc/hostname
+#Cambiar ip del servidor
+  sudo nano /etc/netplan/00-installer-config.yaml
+#Instalar ntp
+  sudo apt install ntp
+#Instalar kerberos, samba, winbind y smbclient
+  sudo apt isntall samba krb5-config winbind smbclient
+#Copia de smb.conf
+  mv /etc/samba/smb.conf /etc/samba/smc.conf.old
+#Copiar archivo krb5.conf a /etc
+  cp /var/lib/samba/private/krb5.conf a /etc
+#Parar y deshabilitar servicios
+  systemctl stop nmbd winbind smbd systemd-resolved
+  systemctl disable nmbd winbind smbd systemd-resolved
+#Crear usuarios con samba-tool
+  samba-tool user create usuario
+#Crear usuarios con samba-tool
+  samba-tool group create “grupo”
+#Crear unidades organizativas
+  samba-tool ou create 'OU=Informatica,DC=smr,DC=local' --description='Departamento de Informática
+#Configurar politicas y seguridad
+  samba-tool domain passwordsettings set --complexity=on
+  samba-tool domain passwordsettings set --history-length=0
+  samba-tool domain passwordsettings set --min-pwd-age=0
+  samba-tool domain passwordsettings set --max-pwd-age=0
+  samba-tool domain passwordsettings set --min-pwd-length=7
+
